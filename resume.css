@@ -1,0 +1,63 @@
+.My_Name{
+    text-align: center;
+}
+
+.Contact_info{
+    
+    text-align: center;
+    margin-top: -13px;
+}
+
+body{
+    color: #3B7460;
+}
+
+.Sum{
+
+    text-align: left;
+    margin-left: 180px;
+}
+
+.Intro{
+    margin-left: 40px;
+    margin-right: 700px;
+}
+
+.Experience{
+
+    text-align: left;
+    margin-left: 180px;
+    margin-top: 38px;
+}
+
+.job{
+
+    padding-top: 13px;
+    margin-top: -15px;
+    text-align: left;
+    margin-left: 37px;
+}
+
+
+.job_date{
+
+    margin-top: -15px;
+    text-align: left;
+    margin-left: 37px;
+
+}
+
+
+.Listed_Skills_1{
+
+    text-align: left;
+    margin-left: 10px;
+    padding-top: -37px;
+
+}
+
+.Skills{
+    text-align: right;
+    margin-top: -621px;
+    margin-left: 930px;
+}
