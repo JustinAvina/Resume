@@ -27,7 +27,7 @@ body{
 
     text-align: left;
     margin-left: 180px;
-    margin-top: 38px;
+    margin-top: 35px;
 }
 
 .job{
@@ -53,11 +53,30 @@ body{
     text-align: left;
     margin-left: 10px;
     padding-top: -37px;
+    padding-bottom: 28px;
 
 }
 
 .Skills{
     text-align: right;
-    margin-top: -621px;
+    margin-top: -707px;
     margin-left: 930px;
+    
+}
+
+ol.Skills{
+    text-align: right;
+    text-align: start;
+    margin-left: 67% ;
+}
+
+.Skilled,strong{
+    margin-bottom: 10px;
+
+}
+
+.Skills,li{
+    margin-right: auto;
+    padding-right: 0;
+    margin-left: 17px;
 }
