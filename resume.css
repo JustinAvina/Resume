@@ -19,8 +19,9 @@ body {
 }
 
 p.Intro {
-    margin-left: 40px;
-    margin-right: 590px;
+    
+    text-align: left;
+    margin-right: 520px;
 }
 
 .Experience {
@@ -61,22 +62,20 @@ p.Intro {
     margin-left: 930px;
 }
 
-ol.Skills {
+.Inline .Skilled {
     text-align: right;
     text-align: start;
-    margin-left: 67%;
+    margin-left: 40px;
+    /* margin-bottom: 1200px; */
 }
 
-h3.Skilled,
-strong {
+h3.Skilled{
     margin-bottom: -210px;
 }
 
-.Skills,
-li {
-    margin-right: auto;
-    padding-right: 0;
-    margin-left: 17px;
+ul.Skills{
+    margin-right: 50px;
+    margin-bottom: -1170px;
 }
 
 .Education {
@@ -106,7 +105,7 @@ li {
 }
 
 h3.Skilled {
-    margin-top: -initial;
+    margin-top: -380px;
 }
 
 
@@ -115,7 +114,6 @@ h3.Skilled {
     margin-top: -15px;
     text-align: right;
     margin-right: 37px;
-
 
 }
 
