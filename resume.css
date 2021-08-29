@@ -1,11 +1,21 @@
 .My_Name {
     text-align: center;
+
+    animation: MoveInRight is ease-out;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 .Contact_info {
 
     text-align: center;
     margin-top: -13px;
+
+    animation-name: MoveInLeft_2;
+    animation-name: MoveInRight;
+    animation-duration: 2s;
+    animation: MoveInRight is ease-out;
+    backface-visibility: hidden;
 }
 
 body {
@@ -19,13 +29,23 @@ body {
 
     text-align: left;
     margin-left: 180px;
+
+    animation-name: MoveInLeft;
+    animation-duration: 2s;
+    animation: MoveInRight is ease-out;
+    backface-visibility: hidden;
 }
 
 p.Intro {
 
     text-align: left;
     margin-left: 40px;
-    margin-right: 537px;
+    margin-right: 590px;
+
+    animation-name: MoveInLeft;
+    animation-duration: 2s;
+    animation: MoveInRight is ease-out;
+    backface-visibility: hidden;
 }
 
 .Experience {
@@ -33,6 +53,11 @@ p.Intro {
     text-align: left;
     margin-left: 180px;
     margin-top: 35px;
+
+    animation-name: MoveInRight;
+    animation-duration: 2s;
+    animation: MoveInRight is ease-out;
+    backface-visibility: hidden;
 }
 
 .job {
@@ -41,6 +66,11 @@ p.Intro {
     margin-top: -15px;
     text-align: left;
     margin-left: 37px;
+
+    animation-name: MoveInRight;
+    animation-duration: 2s;
+    animation: MoveInRight is ease-out;
+    backface-visibility: hidden;
 }
 
 
@@ -49,6 +79,11 @@ p.Intro {
     margin-top: -15px;
     text-align: left;
     margin-left: 37px;
+
+    animation-name: MoveInRight;
+    animation-duration: 2s;
+    animation: MoveInRight is ease-out;
+    backface-visibility: hidden;
 }
 
 
@@ -58,6 +93,11 @@ p.Intro {
     margin-left: 10px;
     padding-top: -37px;
     padding-bottom: 28px;
+
+    animation-name: MoveInRight;
+    animation-duration: 2s;
+    animation: MoveInRight is ease-out;
+    backface-visibility: hidden;
 }
 
 .Skills {
@@ -84,6 +124,10 @@ ul.Skills{
 .Education {
     text-align: center;
     margin-top: 25px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 .School_Name {
@@ -92,12 +136,20 @@ ul.Skills{
     text-align: left;
     margin-left: 37px;
     margin-top: 20px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 .Grad_Year {
     margin-top: -15px;
     text-align: left;
     margin-left: 37px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 .Area {
@@ -105,10 +157,18 @@ ul.Skills{
     text-align: left;
     margin-left: 37px;
     padding-top: -30px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 h3.Skilled {
     margin-top: -380px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 
@@ -118,6 +178,9 @@ h3.Skilled {
     text-align: right;
     margin-right: 37px;
 
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 .School_Name2 {
@@ -126,23 +189,39 @@ h3.Skilled {
     text-align: right;
     margin-right: 37px;
     padding-top: -30px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 .Area2 {
     text-align: right;
     margin-right: 37px;
     margin-top: -16px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 img.DP_Mascot {
 
     margin-left: 19px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 img.AVC_Mascot {
 
     margin-top: -7px;
     margin-left: 1000px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 .Class_Year {
@@ -150,6 +229,10 @@ img.AVC_Mascot {
     margin-top: -15px;
     text-align: center;
     margin-right: 37px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 .U_Classes {
@@ -158,6 +241,10 @@ img.AVC_Mascot {
     text-align: center;
     margin-right: 37px;
     padding-top: -30px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 h6.Area3 {
@@ -165,6 +252,10 @@ h6.Area3 {
     margin-right: 37px;
     margin-top: -16px;
     margin-bottom: 37px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
 div.Udemy{
@@ -172,6 +263,99 @@ div.Udemy{
     text-align: center;
     margin-left: 35px;
 
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+    backface-visibility: hidden;
 }
 
-.Copyright
+.Copyright{
+
+    text-align: center;
+    margin-left: 35px;
+
+    animation-name: MoveInUp;
+    animation-duration: 2s;
+}
+
+
+
+
+
+
+
+
+@keyframes MoveInLeft {
+
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    65% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes MoveInRight {
+
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    65% {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+
+@keyframes MoveInUp {
+
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    65% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
+
+@keyframes MoveInLeft_2 {
+
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+
+    65% {
+        opacity: 0;
+        transform: translateY(100px);
+        transform: rotate(180deg);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+
+}
