@@ -98,7 +98,7 @@ ul.Skills{
 }
 
 .Area {
-    margin-top: -15px;
+    margin-top: -13px;
     text-align: left;
     margin-left: 37px;
     padding-top: -30px;
@@ -141,3 +141,33 @@ img.AVC_Mascot {
     margin-top: -7px;
     margin-left: 1000px;
 }
+
+.Class_Year {
+
+    margin-top: -15px;
+    text-align: center;
+    margin-right: 37px;
+}
+
+.U_Classes {
+
+    margin-top: -203px;
+    text-align: center;
+    margin-right: 37px;
+    padding-top: -30px;
+}
+
+h6.Area3 {
+    text-align: center;
+    margin-right: 37px;
+    margin-top: -16px;
+    margin-bottom: 37px;
+}
+
+div.Udemy{
+
+    text-align: center;
+    margin-left: 35px;
+
+}
+
