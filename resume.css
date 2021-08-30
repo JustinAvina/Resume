@@ -10,16 +10,10 @@
 
     text-align: center;
     margin-top: -13px;
-
-    animation-name: MoveInLeft_2;
-    animation-name: MoveInRight;
-    animation-duration: 2s;
-    animation: MoveInRight is ease-out;
-    backface-visibility: hidden;
 }
 
 body {
-    color: #3B7460;
+    color: black;
     text-align: auto;
     align-content: auto;
 
@@ -27,8 +21,10 @@ body {
 
 .Sum {
 
-    text-align: left;
     margin-left: 180px;
+
+
+    float: center;
 
     animation-name: MoveInLeft;
     animation-duration: 2s;
@@ -38,9 +34,9 @@ body {
 
 p.Intro {
 
-    text-align: left;
-    margin-left: 40px;
-    margin-right: 590px;
+    margin-left: 0px;
+    margin-right: 560px;
+    float: left;
 
     animation-name: MoveInLeft;
     animation-duration: 2s;
@@ -100,12 +96,6 @@ p.Intro {
     backface-visibility: hidden;
 }
 
-.Skills {
-    text-align: right;
-    margin-top: -707px;
-    margin-left: 930px;
-}
-
 .Inline .Skilled {
     text-align: right;
     text-align: start;
@@ -114,11 +104,6 @@ p.Intro {
 
 h3.Skilled{
     margin-bottom: -210px;
-}
-
-ul.Skills{
-    margin-right: 50px;
-    margin-bottom: -1170px;
 }
 
 .Education {
@@ -277,12 +262,11 @@ div.Udemy{
     animation-duration: 2s;
 }
 
+.container{
 
-
-
-
-
-
+    width:fit-content;
+    height:fit-content;
+}
 
 @keyframes MoveInLeft {
 
@@ -359,3 +343,35 @@ div.Udemy{
     }
 
 }
+
+.Intro::first-letter{
+    font-size: 35px;
+    font-weight: 45px;
+}
+
+.My_Name::after{
+    content: "V.1";
+    background-color: #ffe70e;
+    font-size: 16px;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right : 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: relative;
+    top: -16px;
+    right: -24px;
+    border-radius: 20px;
+}
+
+.Copyright{
+    font-weight: bold;
+}
+
+/* .Skills1{
+    float: right;
+}
+
+.Skills2{
+    float: right;
+} */
