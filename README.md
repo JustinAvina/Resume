@@ -1,4 +1,4 @@
-# Resume (HTML & CSS) 
+# Resume (HTML & CSS)
 ## Author: Justin Avina
 ### Day Started Project: 8/26/2021
 

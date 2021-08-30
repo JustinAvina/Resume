@@ -34,9 +34,10 @@ body {
 
 p.Intro {
 
-    margin-left: 0px;
-    margin-right: 560px;
-    float: left;
+    margin-left: 45px;
+    margin-right: 510px;
+    text-align: left;
+    margin-top: -20px;
 
     animation-name: MoveInLeft;
     animation-duration: 2s;
