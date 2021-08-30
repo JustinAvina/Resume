@@ -34,9 +34,10 @@ body {
 
 p.Intro {
 
-    margin-left: 0px;
-    margin-right: 560px;
-    float: left;
+    margin-left: 45px;
+    margin-right: 510px;
+    text-align: left;
+    margin-top: -20px;
 
     animation-name: MoveInLeft;
     animation-duration: 2s;
@@ -355,3 +356,15 @@ div.Udemy{
     font-size: 16px;
     display: inline-block;
     padding-left: 5px;
+    padding-right : 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    position: relative;
+    top: -16px;
+    right: -24px;
+    border-radius: 20px;
+}
+
+.Copyright{
+    font-weight: bold;
+}
