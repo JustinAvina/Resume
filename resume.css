@@ -1,7 +1,7 @@
 .My_Name {
     text-align: center;
 
-    animation: MoveInRight is ease-out;
+    animation: ease-out;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -22,11 +22,10 @@ body {
 .Sum {
 
     margin-left: 180px;
+    display: flex;
+    align-items: left;
 
-
-    float: center;
-
-    animation-name: MoveInLeft;
+    animation-name: fadeIn;
     animation-duration: 2s;
     animation: MoveInRight is ease-out;
     backface-visibility: hidden;
@@ -34,14 +33,14 @@ body {
 
 p.Intro {
 
-    margin-left: 45px;
-    margin-right: 510px;
-    text-align: left;
-    margin-top: -20px;
+    margin-left: 43px;
+    margin-right: 630px;
+    float: center;
 
-    animation-name: MoveInLeft;
+    margin-top: 30px;
+
+    animation-name: fadeIn;
     animation-duration: 2s;
-    animation: MoveInRight is ease-out;
     backface-visibility: hidden;
 }
 
@@ -51,9 +50,9 @@ p.Intro {
     margin-left: 180px;
     margin-top: 35px;
 
-    animation-name: MoveInRight;
+    animation-name: fadeIn;
     animation-duration: 2s;
-    animation: MoveInRight is ease-out;
+    animation: fadeIn is ease-out;
     backface-visibility: hidden;
 }
 
@@ -64,9 +63,9 @@ p.Intro {
     text-align: left;
     margin-left: 37px;
 
-    animation-name: MoveInRight;
+    animation-name: fadeIn;
     animation-duration: 2s;
-    animation: MoveInRight is ease-out;
+    animation: fadeIn is ease-out;
     backface-visibility: hidden;
 }
 
@@ -91,9 +90,9 @@ p.Intro {
     padding-top: -37px;
     padding-bottom: 28px;
 
-    animation-name: MoveInRight;
+    animation-name: fadeIn;
     animation-duration: 2s;
-    animation: MoveInRight is ease-out;
+    animation: fadeIn is ease-out;
     backface-visibility: hidden;
 }
 
@@ -111,7 +110,7 @@ h3.Skilled{
     text-align: center;
     margin-top: 25px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -123,7 +122,7 @@ h3.Skilled{
     margin-left: 37px;
     margin-top: 20px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -133,7 +132,7 @@ h3.Skilled{
     text-align: left;
     margin-left: 37px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -144,7 +143,7 @@ h3.Skilled{
     margin-left: 37px;
     padding-top: -30px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -152,7 +151,7 @@ h3.Skilled{
 h3.Skilled {
     margin-top: -380px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -164,7 +163,7 @@ h3.Skilled {
     text-align: right;
     margin-right: 37px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -176,7 +175,7 @@ h3.Skilled {
     margin-right: 37px;
     padding-top: -30px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -186,7 +185,7 @@ h3.Skilled {
     margin-right: 37px;
     margin-top: -16px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -195,7 +194,7 @@ img.DP_Mascot {
 
     margin-left: 19px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -203,9 +202,8 @@ img.DP_Mascot {
 img.AVC_Mascot {
 
     margin-top: -7px;
-    margin-left: 1000px;
-
-    animation-name: MoveInUp;
+    margin-left: 1119px;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -216,7 +214,7 @@ img.AVC_Mascot {
     text-align: center;
     margin-right: 37px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -228,7 +226,7 @@ img.AVC_Mascot {
     margin-right: 37px;
     padding-top: -30px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -239,7 +237,7 @@ h6.Area3 {
     margin-top: -16px;
     margin-bottom: 37px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -249,7 +247,7 @@ div.Udemy{
     text-align: center;
     margin-left: 35px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
@@ -259,7 +257,7 @@ div.Udemy{
     text-align: center;
     margin-left: 35px;
 
-    animation-name: MoveInUp;
+    animation-name: fadeIn;
     animation-duration: 2s;
 }
 
@@ -267,82 +265,6 @@ div.Udemy{
 
     width:fit-content;
     height:fit-content;
-}
-
-@keyframes MoveInLeft {
-
-    0% {
-        opacity: 0;
-        transform: translateX(-100px);
-    }
-
-    65% {
-        opacity: 0;
-        transform: translateX(20px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-}
-
-@keyframes MoveInRight {
-
-    0% {
-        opacity: 0;
-        transform: translateX(100px);
-    }
-
-    65% {
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-
-}
-
-@keyframes MoveInUp {
-
-    0% {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-
-    65% {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-
-}
-
-@keyframes MoveInLeft_2 {
-
-    0% {
-        opacity: 0;
-        transform: translateY(100px);
-    }
-
-    65% {
-        opacity: 0;
-        transform: translateY(100px);
-        transform: rotate(180deg);
-    }
-
-    100% {
-        opacity: 1;
-        transform: translate(0);
-    }
-
 }
 
 .Intro::first-letter{
@@ -368,3 +290,43 @@ div.Udemy{
 .Copyright{
     font-weight: bold;
 }
+
+  @keyframes fadeIn {
+    0% {opacity:0;}
+
+    75% {opacity:1;}
+
+    100% {opacity:2;}
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+
+    75% {opacity:1;}
+
+    100% {opacity:2;}
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+
+    75% {opacity:1;}
+
+    100% {opacity:2;}
+  }
+
+  @-o-keyframes fadeIn {
+    0% {opacity:0;}
+
+    75% {opacity:1;}
+
+    100% {opacity:2;}
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+
+    75% {opacity:1;}
+
+    100% {opacity:2;}
+  }
