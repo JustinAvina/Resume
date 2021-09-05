@@ -14,8 +14,6 @@
 
 body {
     color: black;
-    text-align: auto;
-    align-content: auto;
 
 }
 
@@ -33,16 +31,28 @@ body {
 
 p.Intro {
 
-    margin-left: 43px;
-    margin-right: 630px;
-    float: center;
+    display: grid;
 
-    margin-top: 30px;
+    margin-left: 39px;
+    padding-right: 630px;
+    text-align: left;
+    margin-top: 7px;
 
     animation-name: fadeIn;
     animation-duration: 2s;
     backface-visibility: hidden;
 }
+
+.Skills_Intro{
+
+    display: grid;
+    grid-column: 1;
+
+    margin-left: 38px;
+    text-align: right;
+}
+
+
 
 .Experience {
 
@@ -102,9 +112,6 @@ p.Intro {
     margin-left: 40px;
 }
 
-h3.Skilled{
-    margin-bottom: -210px;
-}
 
 .Education {
     text-align: center;
@@ -142,14 +149,6 @@ h3.Skilled{
     text-align: left;
     margin-left: 37px;
     padding-top: -30px;
-
-    animation-name: fadeIn;
-    animation-duration: 2s;
-    backface-visibility: hidden;
-}
-
-h3.Skilled {
-    margin-top: -380px;
 
     animation-name: fadeIn;
     animation-duration: 2s;
@@ -261,10 +260,12 @@ div.Udemy{
     animation-duration: 2s;
 }
 
-.container{
+tbody{
 
-    width:fit-content;
-    height:fit-content;
+  display: grid;
+  grid-column: 1;
+  text-align: right;
+
 }
 
 .Intro::first-letter{
@@ -291,42 +292,32 @@ div.Udemy{
     font-weight: bold;
 }
 
-  @keyframes fadeIn {
+@keyframes fadeIn {
     0% {opacity:0;}
 
     75% {opacity:1;}
 
     100% {opacity:2;}
-  }
+}
 
-  @-moz-keyframes fadeIn {
-    0% {opacity:0;}
+h3.Skills {
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
 
-    75% {opacity:1;}
+strong.starred_skills{
 
-    100% {opacity:2;}
-  }
+    margin-left: 40px;
 
-  @-webkit-keyframes fadeIn {
-    0% {opacity:0;}
+}
 
-    75% {opacity:1;}
+.Skills_Intro2{
 
-    100% {opacity:2;}
-  }
+    display: grid;
+    grid-column: 16;
 
-  @-o-keyframes fadeIn {
-    0% {opacity:0;}
+    margin-left: 38px;
 
-    75% {opacity:1;}
-
-    100% {opacity:2;}
-  }
-
-  @-ms-keyframes fadeIn {
-    0% {opacity:0;}
-
-    75% {opacity:1;}
-
-    100% {opacity:2;}
-  }
+}
