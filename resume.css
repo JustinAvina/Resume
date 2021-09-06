@@ -21,7 +21,6 @@ body {
 
     margin-left: 180px;
     display: flex;
-    align-items: left;
 
     animation-name: fadeIn;
     animation-duration: 2s;
@@ -31,7 +30,8 @@ body {
 
 p.Intro {
 
-    display: grid;
+    /* display: grid; */
+    display: inline-block;
 
     margin-left: 39px;
     padding-right: 630px;
@@ -108,7 +108,6 @@ p.Intro {
 
 .Inline .Skilled {
     text-align: right;
-    text-align: start;
     margin-left: 40px;
 }
 
@@ -127,7 +126,7 @@ p.Intro {
     margin-top: -15px;
     text-align: left;
     margin-left: 37px;
-    margin-top: 20px;
+    /* margin-top: 20px; */
 
     animation-name: fadeIn;
     animation-duration: 2s;
@@ -307,11 +306,6 @@ h3.Skills {
     margin-left: 40px;
 }
 
-strong.starred_skills{
-
-    margin-left: 40px;
-
-}
 
 .Skills_Intro2{
 
@@ -319,5 +313,20 @@ strong.starred_skills{
     grid-column: 16;
 
     margin-left: 38px;
+
+}
+
+.pro{
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+h3.NTSkills{
+
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  margin-left: 40px;
+  display: inline-block;
 
 }
